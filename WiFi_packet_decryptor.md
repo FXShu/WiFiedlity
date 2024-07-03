@@ -34,7 +34,7 @@ A PCAPNG file is organized in blocks. The blocks build a logical hierarchy as th
 ```
 The section header start from block type `0x0a0d0d0a` (`\n\r\r\n` in ASCII code), total_length, magic number `0x1a2b3c4d`, version and so on.<br>
 The interface description block records the information of captor, such as `if_name (eth0)`, `if_os (ubuntu 20.04)`, `if_hardware(Intel(R) PRO/1000 MT Network Connection)` and so on.<br>
-The Simple Packet and Enhance Packet block is used to store the packet content. The Enhance Packet block has an additional timestamp compared to the Simple Packet block.
+The Simple Packet and Enhance Packet block is used to store the packet content. The Enhance Packet block has an additional timestamp compared to the Simple Packet block.<br>
 <img src="./picture/pcapng_format.png" width=600px>
 
 <h2 id=cipher_decrypting> Cipher decrypting</h2>
@@ -47,7 +47,7 @@ The setup flag `data protected` in Frame Control Field in IEEE802.11 header indi
 According to the `Chapter 12.5.3 CTR with CBC-MAC protocal (CCMP)` in IEEE802.11 standard, the CCMP-128 decryptor requires `plain text`, `AAD` and `Nonce` to decrypt cipher.<br>
 * AAD <br>
     AAD is standard as Additional Authentication Data. The AAD was composed of IEEE802.11 header. The format is as below.<br>
-    The AAD is used to calculate MIC (Message Integrity Code). For the RSN, the MIC is 8 bytes and will be append to the cipher text. decryptor can check the integrity of plain text via comparing the MIC. 
+    The AAD is used to calculate MIC (Message Integrity Code). For the RSN, the MIC is 8 bytes and will be append to the cipher text. decryptor can check the integrity of plain text via comparing the MIC.<br>
     <img src="./picture/AAD_format.png" width=400px>
 * Nonce <br>
     Nonce is also known as initial vector (IV) in CCM. The cipher will be scramble by IV even with the same plain text and cipher key.<br>
