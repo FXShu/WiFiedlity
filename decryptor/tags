@@ -1,0 +1,708 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AA	crypto/crypto.h	/^	u8 AA[ETH_ALEN];$/;"	m	struct:encrypto_info
+AN	crypto/crypto.h	/^	u8 AN[NONCE_ALEN];$/;"	m	struct:encrypto_info
+ARP_REPLY	utils/head.h	23;"	d
+ARP_REQURST	utils/head.h	24;"	d
+ARRAY_SIZE	utils/common.h	142;"	d
+BEACON_COUNTRY_INFO	common/ieee80211_data.h	/^	BEACON_COUNTRY_INFO      = 0x07,$/;"	e	enum:beacon_param
+BEACON_DS	common/ieee80211_data.h	/^	BEACON_DS                = 0x03,$/;"	e	enum:beacon_param
+BEACON_EXTENDED	common/ieee80211_data.h	/^	BEACON_EXTENDED          = 0x7f,$/;"	e	enum:beacon_param
+BEACON_HT_CAP	common/ieee80211_data.h	/^	BEACON_HT_CAP            = 0x2d, \/\/ HT capabilties$/;"	e	enum:beacon_param
+BEACON_HT_INFO	common/ieee80211_data.h	/^  BEACON_HT_INFO	         = 0x3d,$/;"	e	enum:beacon_param
+BEACON_RM	common/ieee80211_data.h	/^	BEACON_RM                = 0x46, \/\/ Radio Management$/;"	e	enum:beacon_param
+BEACON_SSID	common/ieee80211_data.h	/^	BEACON_SSID              = 0x00,$/;"	e	enum:beacon_param
+BEACON_SUPPORT_Operating	common/ieee80211_data.h	/^	BEACON_SUPPORT_Operating = 0x3b,$/;"	e	enum:beacon_param
+BEACON_SUPPORT_RATE	common/ieee80211_data.h	/^	BEACON_SUPPORT_RATE      = 0x01,$/;"	e	enum:beacon_param
+BEACON_TIM	common/ieee80211_data.h	/^	BEACON_TIM               = 0x05, \/\/ Traffic Indication Map$/;"	e	enum:beacon_param
+BEACON_VENDOR	common/ieee80211_data.h	/^	BEACON_VENDOR            = 0xdd,$/;"	e	enum:beacon_param
+BEACON_VHT_CAP	common/ieee80211_data.h	/^	BEACON_VHT_CAP           = 0xbf,$/;"	e	enum:beacon_param
+BEACON_VHT_OPERATION	common/ieee80211_data.h	/^	BEACON_VHT_OPERATION     = 0xc0,$/;"	e	enum:beacon_param
+BEACON_VHT_TX_POWER	common/ieee80211_data.h	/^	BEACON_VHT_TX_POWER      = 0xc3,$/;"	e	enum:beacon_param
+BIT	crypto/common.h	7;"	d
+CLEAR_LINE_FROM_CURSOR_POSITION	utils/print.h	12;"	d
+CLEAR_SCREEN	utils/print.h	6;"	d
+CONFIG_CRYPTO_INTERNAL	crypto/Makefile	/^CONFIG_CRYPTO_INTERNAL=y$/;"	m
+CONFIG_ELOOP_EPOLL	utils/Makefile	/^CONFIG_ELOOP_EPOLL=y$/;"	m
+CONFIG_ELOOP_SELECT	utils/eloop.c	1119;"	d	file:
+CONFIG_ELOOP_SELECT	utils/eloop.c	18;"	d	file:
+CRYPTO_COMMON_H	crypto/common.h	2;"	d
+CRYPTO_H	crypto/crypto.h	2;"	d
+CRYPTO_INCLUDE_H	crypto/include.h	2;"	d
+CURSOR_UP_LINE	utils/print.h	16;"	d
+Channel	crypto/crypto.h	/^	int Channel;$/;"	m	struct:encrypto_info
+DEFINE_DL_LIST	utils/list.h	78;"	d
+DELETE_MULTIPLE_LINE	utils/print.h	13;"	d
+DL_LIST_HEAD_INIT	utils/list.h	12;"	d
+DMGL_ANSI	utils/trace.c	15;"	d	file:
+DMGL_PAEAMS	utils/trace.c	14;"	d	file:
+DSAP	common/ieee80211_data.h	/^	u8  DSAP;$/;"	m	struct:llc_header
+DST_mac	utils/head.h	/^	unsigned char DST_mac[6];$/;"	m	struct:__anon6
+ELOOP_ALL_CTX	utils/eloop.h	7;"	d
+ELOOP_H	utils/eloop.h	2;"	d
+EPT_ARP	utils/head.h	8;"	d
+EPT_IPv4	utils/head.h	6;"	d
+EPT_IPv6	utils/head.h	7;"	d
+EPT_RARP	utils/head.h	9;"	d
+ETH_ALEN	common/ieee80211_data.h	10;"	d
+ETH_ALEN	utils/common.h	148;"	d
+ETH_ALEN	utils/print.h	27;"	d
+ETH_P_ALL	utils/common.h	175;"	d
+ETH_P_PAE	utils/common.h	179;"	d
+EVENT_TYPE_EXCEPTION	utils/eloop.h	/^	EVENT_TYPE_EXCEPTION$/;"	e	enum:__anon5
+EVENT_TYPE_READ	utils/eloop.h	/^	EVENT_TYPE_READ = 0,$/;"	e	enum:__anon5
+EVENT_TYPE_WRITE	utils/eloop.h	/^	EVENT_TYPE_WRITE,$/;"	e	enum:__anon5
+HACK_TRACE_INFO	utils/trace.h	/^	HACK_TRACE_INFO;$/;"	m	struct:hack_trace_ref
+HACK_TRACE_INFO	utils/trace.h	11;"	d
+HACK_TRACE_INFO	utils/trace.h	41;"	d
+HACK_TRACE_LEN	utils/trace.h	4;"	d
+HACK_TRACE_REF	utils/trace.h	19;"	d
+HACK_TRACE_REF	utils/trace.h	42;"	d
+HASH_TABLE_H	utils/hashtab.h	2;"	d
+HEAD_H	utils/head.h	2;"	d
+IEEE80211RADIOTAP_H	common/radiotap.h	2;"	d
+IEEE80211_ACK	common/ieee80211_data.h	/^	IEEE80211_ACK                     = 0x001D,$/;"	e	enum:ieee80211_subtype
+IEEE80211_ACTION	common/ieee80211_data.h	/^	IEEE80211_ACTION                  = 0x000D,$/;"	e	enum:ieee80211_subtype
+IEEE80211_ACTION_NO_ACK	common/ieee80211_data.h	/^	IEEE80211_ACTION_NO_ACK           = 0x000E,$/;"	e	enum:ieee80211_subtype
+IEEE80211_ASSOCIATION_RESPONSE	common/ieee80211_data.h	/^	IEEE80211_ASSOCIATION_RESPONSE    =  0x0001,$/;"	e	enum:ieee80211_subtype
+IEEE80211_ASSOCIATION_RESQUEST	common/ieee80211_data.h	/^	IEEE80211_ASSOCIATION_RESQUEST    =  0x0000,$/;"	e	enum:ieee80211_subtype
+IEEE80211_ATIM	common/ieee80211_data.h	/^	IEEE80211_ATIM                    = 0x0009,$/;"	e	enum:ieee80211_subtype
+IEEE80211_AUTHENTICATION	common/ieee80211_data.h	/^	IEEE80211_AUTHENTICATION          = 0x000B,$/;"	e	enum:ieee80211_subtype
+IEEE80211_BEACON	common/ieee80211_data.h	/^	IEEE80211_BEACON                  = 0x0008,$/;"	e	enum:ieee80211_subtype
+IEEE80211_BEAMFORMING_REPORT_POLL	common/ieee80211_data.h	/^	IEEE80211_BEAMFORMING_REPORT_POLL = 0x0014,$/;"	e	enum:ieee80211_subtype
+IEEE80211_BLOCK_ACK	common/ieee80211_data.h	/^	IEEE80211_BLOCK_ACK               = 0x0019,$/;"	e	enum:ieee80211_subtype
+IEEE80211_BLOCK_ACK_REQUEST	common/ieee80211_data.h	/^	IEEE80211_BLOCK_ACK_REQUEST       = 0x0018,$/;"	e	enum:ieee80211_subtype
+IEEE80211_CF_ACK	common/ieee80211_data.h	/^	IEEE80211_CF_ACK                  = 0x0025,$/;"	e	enum:ieee80211_subtype
+IEEE80211_CF_ACK_CF_POLL	common/ieee80211_data.h	/^	IEEE80211_CF_ACK_CF_POLL          = 0x0027,$/;"	e	enum:ieee80211_subtype
+IEEE80211_CF_END	common/ieee80211_data.h	/^	IEEE80211_CF_END                  = 0x001E,$/;"	e	enum:ieee80211_subtype
+IEEE80211_CF_END_CF_ACK	common/ieee80211_data.h	/^	IEEE80211_CF_END_CF_ACK           = 0x001F,$/;"	e	enum:ieee80211_subtype
+IEEE80211_CF_POLL	common/ieee80211_data.h	/^	IEEE80211_CF_POLL                 = 0x0026,$/;"	e	enum:ieee80211_subtype
+IEEE80211_CONTROL_FRAME_EXTENSION	common/ieee80211_data.h	/^	IEEE80211_CONTROL_FRAME_EXTENSION = 0x0016,$/;"	e	enum:ieee80211_subtype
+IEEE80211_CONTROL_TYPE	common/ieee80211_data.h	/^    IEEE80211_CONTROL_TYPE   = 0x0010,$/;"	e	enum:ieee80211_type
+IEEE80211_CONTROL_WRAPPER	common/ieee80211_data.h	/^	IEEE80211_CONTROL_WRAPPER         = 0x0017,$/;"	e	enum:ieee80211_subtype
+IEEE80211_CTS	common/ieee80211_data.h	/^	IEEE80211_CTS                     = 0x001C,$/;"	e	enum:ieee80211_subtype
+IEEE80211_DATA	common/ieee80211_data.h	/^	IEEE80211_DATA                    = 0x0020,$/;"	e	enum:ieee80211_subtype
+IEEE80211_DATA_CF_ACK	common/ieee80211_data.h	/^	IEEE80211_DATA_CF_ACK             = 0x0021,$/;"	e	enum:ieee80211_subtype
+IEEE80211_DATA_CF_POLL	common/ieee80211_data.h	/^	IEEE80211_DATA_CF_POLL            = 0x0023,$/;"	e	enum:ieee80211_subtype
+IEEE80211_DATA_TYPE	common/ieee80211_data.h	/^    IEEE80211_DATA_TYPE      = 0x0020,$/;"	e	enum:ieee80211_type
+IEEE80211_DEAUTHENTICATION	common/ieee80211_data.h	/^	IEEE80211_DEAUTHENTICATION        = 0x000C,$/;"	e	enum:ieee80211_subtype
+IEEE80211_DISASSOCIATION	common/ieee80211_data.h	/^	IEEE80211_DISASSOCIATION          = 0x000A,$/;"	e	enum:ieee80211_subtype
+IEEE80211_DMG_BEACON	common/ieee80211_data.h	/^	IEEE80211_DMG_BEACON              = 0x0030,$/;"	e	enum:ieee80211_subtype
+IEEE80211_FALGS_DIR_TODS	common/ieee80211_data.h	/^    IEEE80211_FALGS_DIR_TODS   = 0x01,    \/* STA -> AP  *\/$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS	common/ieee80211_data.h	/^enum IEEE80211_FLAGS {$/;"	g
+IEEE80211_FLAGS_DIR_DSTODS	common/ieee80211_data.h	/^    IEEE80211_FLAGS_DIR_DSTODS = 0x03,  \/* AP  -> AP *\/$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS_DIR_FROMDS	common/ieee80211_data.h	/^    IEEE80211_FLAGS_DIR_FROMDS = 0x02,  \/* AP  -> STA  *\/$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS_DIR_NODS	common/ieee80211_data.h	/^    IEEE80211_FLAGS_DIR_NODS   = 0x00,    \/* STA -> STA *\/$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS_MORE_DATA	common/ieee80211_data.h	/^    IEEE80211_FLAGS_MORE_DATA  = 0x20,$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS_MORE_FRAG	common/ieee80211_data.h	/^    IEEE80211_FLAGS_MORE_FRAG  = 0x04,$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS_ORDER	common/ieee80211_data.h	/^    IEEE80211_FLAGS_ORDER      = 0x80,$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS_PROTECTED	common/ieee80211_data.h	/^    IEEE80211_FLAGS_PROTECTED  = 0x40,$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS_PWR_MGT	common/ieee80211_data.h	/^    IEEE80211_FLAGS_PWR_MGT    = 0x10,$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_FLAGS_RETRY	common/ieee80211_data.h	/^    IEEE80211_FLAGS_RETRY      = 0x08,$/;"	e	enum:IEEE80211_FLAGS
+IEEE80211_MANAGMENT_TYPE	common/ieee80211_data.h	/^    IEEE80211_MANAGMENT_TYPE = 0x0000,$/;"	e	enum:ieee80211_type
+IEEE80211_NO_DATA	common/ieee80211_data.h	/^	IEEE80211_NO_DATA                 = 0x0024,$/;"	e	enum:ieee80211_subtype
+IEEE80211_PROBE_REQUEST	common/ieee80211_data.h	/^	IEEE80211_PROBE_REQUEST           = 0x0004,$/;"	e	enum:ieee80211_subtype
+IEEE80211_PROBE_RESPONSE	common/ieee80211_data.h	/^	IEEE80211_PROBE_RESPONSE          = 0x0005,$/;"	e	enum:ieee80211_subtype
+IEEE80211_PS_POLL	common/ieee80211_data.h	/^	IEEE80211_PS_POLL                 = 0x001A,$/;"	e	enum:ieee80211_subtype
+IEEE80211_QOS_CF_ACK_CF_POLL	common/ieee80211_data.h	/^	IEEE80211_QOS_CF_ACK_CF_POLL      = 0x002F,$/;"	e	enum:ieee80211_subtype
+IEEE80211_QOS_CF_POLL	common/ieee80211_data.h	/^	IEEE80211_QOS_CF_POLL             = 0x002E,$/;"	e	enum:ieee80211_subtype
+IEEE80211_QOS_DATA	common/ieee80211_data.h	/^	IEEE80211_QOS_DATA                = 0x0028,$/;"	e	enum:ieee80211_subtype
+IEEE80211_QOS_DATA_CF_ACK	common/ieee80211_data.h	/^	IEEE80211_QOS_DATA_CF_ACK         = 0x0029,$/;"	e	enum:ieee80211_subtype
+IEEE80211_QOS_DATA_CF_ACK_CF_POLL	common/ieee80211_data.h	/^	IEEE80211_QOS_DATA_CF_ACK_CF_POLL = 0x002B,$/;"	e	enum:ieee80211_subtype
+IEEE80211_QOS_DATA_CF_POLL	common/ieee80211_data.h	/^	IEEE80211_QOS_DATA_CF_POLL        = 0x002A,$/;"	e	enum:ieee80211_subtype
+IEEE80211_QOS_NO_DATA	common/ieee80211_data.h	/^	IEEE80211_QOS_NO_DATA             = 0x002C,$/;"	e	enum:ieee80211_subtype
+IEEE80211_RADIOTAP_ANTENNA	common/radiotap.h	/^	IEEE80211_RADIOTAP_ANTENNA = 11,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_CHANNEL	common/radiotap.h	/^	IEEE80211_RADIOTAP_CHANNEL = 3,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_DBM_ANTNOISE	common/radiotap.h	/^	IEEE80211_RADIOTAP_DBM_ANTNOISE = 6,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_DBM_ANTSIGNAL	common/radiotap.h	/^	IEEE80211_RADIOTAP_DBM_ANTSIGNAL = 5,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_DBM_TX_POWER	common/radiotap.h	/^	IEEE80211_RADIOTAP_DBM_TX_POWER = 10,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_DB_ANTNOISE	common/radiotap.h	/^	IEEE80211_RADIOTAP_DB_ANTNOISE = 13,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_DB_ANTSIGNAL	common/radiotap.h	/^	IEEE80211_RADIOTAP_DB_ANTSIGNAL = 12,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_DB_TX_ATTENUATION	common/radiotap.h	/^	IEEE80211_RADIOTAP_DB_TX_ATTENUATION = 9,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_EXT	common/radiotap.h	/^	IEEE80211_RADIOTAP_EXT = 31,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_FHSS	common/radiotap.h	/^	IEEE80211_RADIOTAP_FHSS    = 4,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_FLAGS	common/radiotap.h	/^	IEEE80211_RADIOTAP_FLAGS   = 1,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_LOCK_QUALITY	common/radiotap.h	/^	IEEE80211_RADIOTAP_LOCK_QUALITY = 7,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_RATE	common/radiotap.h	/^	IEEE80211_RADIOTAP_RATE    = 2,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_TSFT	common/radiotap.h	/^	IEEE80211_RADIOTAP_TSFT    = 0,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_RADIOTAP_TX_ATTEUATION	common/radiotap.h	/^	IEEE80211_RADIOTAP_TX_ATTEUATION = 8,$/;"	e	enum:ieee80211_radiotap_type
+IEEE80211_REASSOCIATION_REQUEST	common/ieee80211_data.h	/^	IEEE80211_REASSOCIATION_REQUEST   = 0x0002,$/;"	e	enum:ieee80211_subtype
+IEEE80211_REASSOCIATION_RESPONSE	common/ieee80211_data.h	/^	IEEE80211_REASSOCIATION_RESPONSE  = 0x0003,$/;"	e	enum:ieee80211_subtype
+IEEE80211_RTS	common/ieee80211_data.h	/^	IEEE80211_RTS                     = 0x001B,$/;"	e	enum:ieee80211_subtype
+IEEE80211_TIMING_ADVERTISEMENT	common/ieee80211_data.h	/^	IEEE80211_TIMING_ADVERTISEMENT    = 0x0006,$/;"	e	enum:ieee80211_subtype
+IEEE80211_Trigger	common/ieee80211_data.h	/^	IEEE80211_Trigger                 = 0x0012,$/;"	e	enum:ieee80211_subtype
+IEEE80211_VHT_NDP_ANNOUNCEMENT	common/ieee80211_data.h	/^	IEEE80211_VHT_NDP_ANNOUNCEMENT    = 0x0015,$/;"	e	enum:ieee80211_subtype
+IEEE_8021X_MIC_LEN	common/ieee80211_data.h	8;"	d
+IFNAMSIZ	utils/common.h	145;"	d
+IPv42STR	utils/print.h	33;"	d
+IPv4STR	utils/print.h	34;"	d
+IPv4_ADDR_LEN	utils/head.h	19;"	d
+IPv6_ADDR_LEN	utils/head.h	20;"	d
+IV	common/ieee80211_data.h	/^	u8  IV[16];$/;"	m	struct:ieee_8021x_authentication
+LIB_OBJS	crypto/Makefile	/^LIB_OBJS= sha1_internal.o crypto.o hmac_sha1.o sha1_pbkf2.o sha1-prf.o aes_openssl.o aes-ccm.o ccmp.o$/;"	m
+LIB_OBJS	utils/Makefile	/^LIB_OBJS= \\$/;"	m
+LINUX_IEEE80211_H	common/ieee80211_data.h	2;"	d
+LIST_H	utils/list.h	2;"	d
+LOCATE	utils/list.h	54;"	d
+MAC2STR	utils/print.h	30;"	d
+MACSTR	utils/print.h	31;"	d
+MAC_ADDR_LEN	utils/head.h	18;"	d
+MAXPASSLEN	crypto/common.h	31;"	d
+MIC	common/ieee80211_data.h	/^	u8  MIC[IEEE_8021X_MIC_LEN];$/;"	m	struct:ieee_8021x_authentication
+MIC	crypto/crypto.h	/^	u8 MIC[MD5_DIGEST_LENGTH];$/;"	m	struct:encrypto_info
+MITM_PUT_BE16	utils/common.h	/^static inline void MITM_PUT_BE16(u8 *a, u16 val) {$/;"	f
+MITM_PUT_LE16	utils/common.h	/^static inline void MITM_PUT_LE16(u8 *a, u16 val) {$/;"	f
+MITM_PUT_LE32	utils/common.h	/^static inline void MITM_PUT_LE32(u8 *a, u32 val)$/;"	f
+MSG_DEBUG	utils/print.h	/^	MSG_DEBUG,$/;"	e	enum:__anon4
+MSG_DONTWAIT	utils/common.h	57;"	d
+MSG_ERROR	utils/print.h	/^	MSG_ERROR$/;"	e	enum:__anon4
+MSG_EXCESSIVE	utils/print.h	/^	MSG_EXCESSIVE,$/;"	e	enum:__anon4
+MSG_INFO	utils/print.h	/^	MSG_INFO,$/;"	e	enum:__anon4
+MSG_MSGDUMP	utils/print.h	/^	MSG_MSGDUMP,$/;"	e	enum:__anon4
+MSG_WARNING	utils/print.h	/^	MSG_WARNING,$/;"	e	enum:__anon4
+MTU	utils/common.h	151;"	d
+NOCACHED	crypto/common.h	11;"	d
+NONCE_ALEN	common/ieee80211_data.h	7;"	d
+NONE	utils/print.h	10;"	d
+Nonce	common/ieee80211_data.h	/^	u8  Nonce[NONCE_ALEN];$/;"	m	struct:ieee_8021x_authentication
+OS_H	utils/os.h	2;"	d
+OS_REJECT_LIB_FUNCTIONS	utils/os_internal.c	5;"	d	file:
+PKTHDR_RADIOTAP_VERSION	common/radiotap.h	6;"	d
+PRINTF_H	utils/print.h	2;"	d
+PRINTF_MALLOC_ERROR	utils/print.h	36;"	d
+PROTOCOL_ICMP	utils/head.h	12;"	d
+PROTOCOL_IGMP	utils/head.h	13;"	d
+PROTOCOL_TCP	utils/head.h	14;"	d
+PROTOCOL_UDP	utils/head.h	15;"	d
+R0	crypto/sha1_internal.c	22;"	d	file:
+R1	crypto/sha1_internal.c	25;"	d	file:
+R2	crypto/sha1_internal.c	28;"	d	file:
+R3	crypto/sha1_internal.c	30;"	d	file:
+R4	crypto/sha1_internal.c	33;"	d	file:
+RECOVER_CURSOR_POSITION	utils/print.h	15;"	d
+RED	utils/print.h	8;"	d
+RESET_CURSOR	utils/print.h	7;"	d
+RSC	common/ieee80211_data.h	/^	u64 RSC;$/;"	m	struct:ieee_8021x_authentication
+SA	crypto/crypto.h	/^	u8 SA[ETH_ALEN];$/;"	m	struct:encrypto_info
+SET	utils/os.h	50;"	d
+SET_CURSOR_POSITION	utils/print.h	11;"	d
+SHA1Context	crypto/sha1_i.h	/^struct SHA1Context {$/;"	s
+SHA1Final	crypto/sha1.h	10;"	d
+SHA1Final	crypto/sha1_internal.c	/^void SHA1Final(unsigned char digest[20], SHA1_CTX *context) {$/;"	f
+SHA1HANDSOFF	crypto/sha1_internal.c	6;"	d	file:
+SHA1Init	crypto/sha1.h	8;"	d
+SHA1Init	crypto/sha1_internal.c	/^void SHA1Init(SHA1_CTX *context) {$/;"	f
+SHA1Transform	crypto/sha1_internal.c	/^void SHA1Transform(u32 state[5], const unsigned char buffer[64]) {$/;"	f
+SHA1Update	crypto/sha1.h	9;"	d
+SHA1Update	crypto/sha1_internal.c	/^void SHA1Update(SHA1_CTX *context, const void *_data, u32 len) {$/;"	f
+SHA1_CACHE	crypto/sha1.h	/^} SHA1_CACHE;$/;"	t	typeref:struct:__anon3
+SHA1_CTX	crypto/sha1.h	7;"	d
+SHA1_CTX	crypto/sha1_internal.c	/^typedef struct SHA1Context SHA1_CTX;$/;"	t	typeref:struct:SHA1Context	file:
+SHA1_H	crypto/sha1.h	2;"	d
+SHA1_I_H	crypto/sha1_i.h	2;"	d
+SHA1_MAC_LEN	crypto/sha1.h	5;"	d
+SHAPrintContext	crypto/sha1_internal.c	/^void SHAPrintContext(SHA1_CTX *context, char *msg) {$/;"	f
+SN	crypto/crypto.h	/^	u8 SN[NONCE_ALEN];$/;"	m	struct:encrypto_info
+SRC_mac	utils/head.h	/^	unsigned char SRC_mac[6];$/;"	m	struct:__anon6
+SSAP	common/ieee80211_data.h	/^	u8  SSAP;$/;"	m	struct:llc_header
+SSID	crypto/crypto.h	/^	u8 *SSID;$/;"	m	struct:encrypto_info
+STORE_CURSOR_POSITION	utils/print.h	14;"	d
+TEST_FAIL	utils/common.h	143;"	d
+TRACE_H	utils/trace.h	2;"	d
+TTL	utils/head.h	/^	unsigned char  TTL;$/;"	m	struct:__anon8
+USECACHED	crypto/common.h	10;"	d
+UTILS_COMMON_H	utils/common.h	2;"	d
+UTILS_INCLUDES_H	utils/includes.h	7;"	d
+UTILS_SPLIT_H	utils/split.h	2;"	d
+WLAN_FC_FROMDS	common/ieee80211_data.h	31;"	d
+WLAN_FC_MOREDATA	common/ieee80211_data.h	35;"	d
+WLAN_FC_MOREFRAG	common/ieee80211_data.h	32;"	d
+WLAN_FC_ORDER	common/ieee80211_data.h	37;"	d
+WLAN_FC_PROTECTED	common/ieee80211_data.h	36;"	d
+WLAN_FC_PWRMGT	common/ieee80211_data.h	34;"	d
+WLAN_FC_RETRY	common/ieee80211_data.h	33;"	d
+WLAN_FC_TODS	common/ieee80211_data.h	30;"	d
+WLAN_PARSE_FRAG	common/ieee80211_data.h	42;"	d
+WLAN_PARSE_SEQ	common/ieee80211_data.h	41;"	d
+WLAN_PARSE_SUBTYPE	common/ieee80211_data.h	40;"	d
+WLAN_PARSE_TYPE	common/ieee80211_data.h	39;"	d
+WPA2_handshake_packet	common/ieee80211_data.h	/^struct WPA2_handshake_packet {$/;"	s
+WPA2_packet	common/ieee80211_data.h	/^struct WPA2_packet {$/;"	s
+WPA_BYTE_SWAP_DEFINED	utils/common.h	139;"	d
+WPA_KCK_MAX_LEN	crypto/crypto.h	8;"	d
+WPA_KEK_MAX_LEN	crypto/crypto.h	9;"	d
+WPA_KEY_INFO_ACK	crypto/common.h	24;"	d
+WPA_KEY_INFO_ENCR_KEY_DATA	crypto/common.h	29;"	d
+WPA_KEY_INFO_ERROR	crypto/common.h	27;"	d
+WPA_KEY_INFO_INSTALL	crypto/common.h	22;"	d
+WPA_KEY_INFO_KEY_INDEX_MASK	crypto/common.h	20;"	d
+WPA_KEY_INFO_KEY_INDEX_SHIFT	crypto/common.h	21;"	d
+WPA_KEY_INFO_KEY_TYPE	crypto/common.h	18;"	d
+WPA_KEY_INFO_MIC	crypto/common.h	25;"	d
+WPA_KEY_INFO_REQUEST	crypto/common.h	28;"	d
+WPA_KEY_INFO_SECURE	crypto/common.h	26;"	d
+WPA_KEY_INFO_SMK_MESSAGE	crypto/common.h	30;"	d
+WPA_KEY_INFO_TXRX	crypto/common.h	23;"	d
+WPA_KEY_INFO_TYPE_AES_128_CMAC	crypto/common.h	17;"	d
+WPA_KEY_INFO_TYPE_AKM_DEFINED	crypto/common.h	14;"	d
+WPA_KEY_INFO_TYPE_HMAC_MD5_RC4	crypto/common.h	15;"	d
+WPA_KEY_INFO_TYPE_HMAC_SHA1_AES	crypto/common.h	16;"	d
+WPA_KEY_INFO_TYPE_MASK	crypto/common.h	13;"	d
+WPA_NONCE_LEN	crypto/crypto.h	12;"	d
+WPA_REPLAY_COUNTER_LEN	crypto/crypto.h	11;"	d
+WPA_TK_MAX_LEN	crypto/crypto.h	10;"	d
+WPA_TYPES_DEFINED	utils/common.h	113;"	d
+WPA_TYPES_DEFINED	utils/common.h	84;"	d
+WPA_TYPES_DEFINED	utils/common.h	96;"	d
+YELLOW	utils/print.h	9;"	d
+__BIG_ENDIAN	utils/common.h	22;"	d
+__BIG_ENDIAN	utils/common.h	40;"	d
+__BYTE_ORDER	utils/common.h	20;"	d
+__BYTE_ORDER	utils/common.h	38;"	d
+__LITTLE_ENDIAN	utils/common.h	21;"	d
+__LITTLE_ENDIAN	utils/common.h	39;"	d
+__WIRELESS_PEEK_NL80211_H__	common/nl80211.c	2;"	d	file:
+__hide_aliasing_typecast	utils/common.c	/^void * __hide_aliasing_typecast(void *foo) {$/;"	f
+ackn_num	utils/head.h	/^	unsigned int   ackn_num;$/;"	m	struct:__anon9
+active_references	utils/trace.c	/^static struct dl_list active_references =$/;"	v	typeref:struct:dl_list	file:
+addr	utils/trace.h	/^	const void *addr;$/;"	m	struct:hack_trace_ref
+addr1	common/ieee80211_data.h	/^	u8  addr1[ETH_ALEN];$/;"	m	struct:ieee80211_hdr
+addr1	common/ieee80211_data.h	/^	u8  addr1[ETH_ALEN];$/;"	m	struct:ieee80211_hdr_3addr
+addr2	common/ieee80211_data.h	/^	u8  addr2[ETH_ALEN];$/;"	m	struct:ieee80211_hdr
+addr2	common/ieee80211_data.h	/^	u8  addr2[ETH_ALEN];$/;"	m	struct:ieee80211_hdr_3addr
+addr3	common/ieee80211_data.h	/^	u8  addr3[ETH_ALEN];$/;"	m	struct:ieee80211_hdr
+addr3	common/ieee80211_data.h	/^	u8  addr3[ETH_ALEN];$/;"	m	struct:ieee80211_hdr_3addr
+addr4	common/ieee80211_data.h	/^	u8  addr4[ETH_ALEN];$/;"	m	struct:ieee80211_hdr
+aes_ccm_ad	crypto/aes-ccm.c	/^int aes_ccm_ad(const u8 *key, size_t key_len, const u8 *nonce, size_t M,$/;"	f
+aes_ccm_ae	crypto/aes-ccm.c	/^int aes_ccm_ae(const u8 *key, size_t key_len, const u8 *nonce,$/;"	f
+aes_ccm_auth	crypto/aes-ccm.c	/^static void aes_ccm_auth(void *aes, const u8 *data, size_t len, u8 *x) {$/;"	f	file:
+aes_ccm_auth_start	crypto/aes-ccm.c	/^static void aes_ccm_auth_start(void *aes, size_t M, size_t L,$/;"	f	file:
+aes_ccm_decr_auth	crypto/aes-ccm.c	/^static void aes_ccm_decr_auth(void *aes, size_t M, u8 *a, const u8 *auth, u8 *t) {$/;"	f	file:
+aes_ccm_encr	crypto/aes-ccm.c	/^static void aes_ccm_encr(void *aes, size_t L, const u8 *in, size_t len, u8 *out, u8 *a) {$/;"	f	file:
+aes_ccm_encr_auth	crypto/aes-ccm.c	/^static void aes_ccm_encr_auth(void *aes, size_t M, u8 *x, u8 *a, u8 *auth) {$/;"	f	file:
+aes_ccm_encr_start	crypto/aes-ccm.c	/^static void aes_ccm_encr_start(size_t L, const u8 *nonce, u8 *a) {$/;"	f	file:
+aes_encrypt	crypto/aes_openssl.c	/^int aes_encrypt(void *ctx, const u8 *plain, u8 *crypt) {$/;"	f
+aes_encrypt_deinit	crypto/aes_openssl.c	/^void aes_encrypt_deinit(void *ctx) {$/;"	f
+aes_encrypt_init	crypto/aes_openssl.c	/^void * aes_encrypt_init (const u8 *key, size_t len) {$/;"	f
+aes_get_evp_cipher	crypto/aes_openssl.c	/^static const EVP_CIPHER *aes_get_evp_cipher(size_t keylen) {$/;"	f	file:
+aliasing_hide_typecast	utils/common.h	71;"	d
+arp_header	utils/head.h	/^} arp_header;$/;"	t	typeref:struct:__anon7
+auth	crypto/crypto.h	/^		} auth;$/;"	m	union:wpa_ptk::__anon1	typeref:struct:wpa_ptk::__anon1::__anon2
+auth_data	common/ieee80211_data.h	/^	struct ieee_8021x_authentication auth_data;$/;"	m	struct:WPA2_handshake_packet	typeref:struct:WPA2_handshake_packet::ieee_8021x_authentication
+be_to_host16	utils/common.h	132;"	d
+be_to_host32	utils/common.h	136;"	d
+beacon_fix_params	common/ieee80211_data.h	/^struct beacon_fix_params {$/;"	s
+beacon_packet	common/ieee80211_data.h	/^struct beacon_packet {$/;"	s
+beacon_param	common/ieee80211_data.h	/^enum beacon_param {$/;"	g
+beacon_tag_params	common/ieee80211_data.h	/^struct beacon_tag_params {$/;"	s
+blk	crypto/sha1_internal.c	18;"	d	file:
+blk0	crypto/sha1_internal.c	13;"	d	file:
+blk0	crypto/sha1_internal.c	16;"	d	file:
+body	common/ieee80211_data.h	/^	struct ieee80211_beacon body;$/;"	m	struct:beacon_packet	typeref:struct:beacon_packet::ieee80211_beacon
+bswap_16	utils/common.h	/^static inline unsigned short bswap_16(unsigned short v){$/;"	f
+bswap_16	utils/common.h	24;"	d
+bswap_16	utils/common.h	28;"	d
+bswap_32	utils/common.h	/^static inline unsigned int bswap_32(unsigned int v ){$/;"	f
+bswap_32	utils/common.h	25;"	d
+bswap_32	utils/common.h	29;"	d
+bswap_64	utils/common.h	26;"	d
+bswap_64	utils/common.h	30;"	d
+buffer	crypto/sha1_i.h	/^	unsigned char buffer[64];$/;"	m	struct:SHA1Context
+cached	crypto/hmac_sha1.c	/^SHA1_CACHE cached;$/;"	v
+cached_abfd	utils/trace.c	/^static bfd *cached_abfd = NULL;$/;"	v	file:
+cancel	utils/hashtab.c	/^int cancel(struct hash_table* table,struct node* node){$/;"	f
+cancel	utils/hashtab.h	/^	int(*cancel)(struct hash_table* table,struct node* node);$/;"	m	struct:hash_table
+capabilities	common/ieee80211_data.h	/^	u16 capabilities;$/;"	m	struct:beacon_fix_params
+ccmp_aad_nonce	crypto/ccmp.c	/^static void ccmp_aad_nonce(const struct ieee80211_hdr_3addr *hdr,$/;"	f	file:
+ccmp_decrypt	crypto/ccmp.c	/^u8 *ccmp_decrypt(const u8 *tk, const struct ieee80211_hdr_3addr *hdr,$/;"	f
+ccmp_encrypt	crypto/ccmp.c	/^u8 *ccmp_encrypt(const u8 *tk, u8 *frame, size_t len, size_t hdrlen,$/;"	f
+changed	utils/eloop.c	/^	int changed;$/;"	m	struct:eloop_sock_table	file:
+check_sum	utils/head.h	/^	unsigned short check_sum;$/;"	m	struct:__anon10
+check_sum	utils/head.h	/^	unsigned short check_sum;$/;"	m	struct:__anon8
+check_sum	utils/head.h	/^	unsigned short check_sum;$/;"	m	struct:__anon9
+close	utils/common.h	67;"	d
+close	utils/common.h	68;"	d
+code	common/ieee80211_data.h	/^	u8  code[3];$/;"	m	struct:llc_header
+compare_node	utils/hashtab.c	/^int compare_node(struct node* dst,struct node* src){$/;"	f
+control_field	common/ieee80211_data.h	/^	u8  control_field;$/;"	m	struct:llc_header
+copy_mac_address	utils/print.c	/^void copy_mac_address(uint8_t *src, uint8_t *dst) {$/;"	f
+count	crypto/sha1_i.h	/^	u32 count[2];$/;"	m	struct:SHA1Context
+count	utils/eloop.c	/^	int count; \/* sum of all table counts *\/$/;"	m	struct:eloop_data	file:
+count	utils/eloop.c	/^	int count;$/;"	m	struct:eloop_sock_table	file:
+counter	crypto/crypto.h	/^	u8 counter[8];$/;"	m	struct:encrypto_info
+create_node	utils/hashtab.c	/^inline struct node* create_node(char* key,char* value){$/;"	f
+data	common/ieee80211_data.h	/^	u8 *data;$/;"	m	struct:beacon_tag_params
+data	common/ieee80211_data.h	/^	u8 *data;$/;"	m	struct:ieee_8021x_authentication
+data_len	common/ieee80211_data.h	/^	u16 data_len;$/;"	m	struct:ieee_8021x_authentication
+deauth_STA_leave	common/ieee80211_data.h	/^	deauth_STA_leave,$/;"	e	enum:reason_code
+deauth_inactivity	common/ieee80211_data.h	/^	deauth_inactivity,$/;"	e	enum:reason_code
+deauth_nonauth_l2	common/ieee80211_data.h	/^	deauth_nonauth_l2,$/;"	e	enum:reason_code
+deauth_nonauth_l3	common/ieee80211_data.h	/^	deauth_nonauth_l3,$/;"	e	enum:reason_code
+deauth_nouse_auth	common/ieee80211_data.h	/^	deauth_nouse_auth,$/;"	e	enum:reason_code
+deauth_over_loading	common/ieee80211_data.h	/^	deauth_over_loading,$/;"	e	enum:reason_code
+deauth_reserved	common/ieee80211_data.h	/^	deauth_reserved = 0x0000,$/;"	e	enum:reason_code
+deauth_unspec_reason	common/ieee80211_data.h	/^	deauth_unspec_reason,$/;"	e	enum:reason_code
+debug_level	data_decryption.c	/^int debug_level;$/;"	v
+dest_ip	utils/head.h	/^	unsigned char  dest_ip[4];$/;"	m	struct:__anon8
+dest_ip	utils/head.h	/^	unsigned char dest_ip[4];$/;"	m	struct:__anon7
+dest_mac	utils/head.h	/^	unsigned char dest_mac[6];$/;"	m	struct:__anon7
+dest_port	utils/head.h	/^	unsigned short dest_port;$/;"	m	struct:__anon10
+dest_port	utils/head.h	/^	unsigned short dest_port;$/;"	m	struct:__anon9
+dictionary_attack	crypto/crypto.c	/^int dictionary_attack(const char *dictionary_path, struct encrypto_info *info, int cracked) {$/;"	f
+dl_list	utils/list.h	/^struct dl_list {$/;"	s
+dl_list_add	utils/list.h	/^static inline void dl_list_add(struct dl_list *list, struct dl_list *item) {$/;"	f
+dl_list_add_tail	utils/list.h	/^static inline void dl_list_add_tail(struct dl_list *list, struct dl_list *item) {$/;"	f
+dl_list_del	utils/list.h	/^static inline void dl_list_del(struct dl_list *item) {$/;"	f
+dl_list_empty	utils/list.h	/^static inline int dl_list_empty(struct dl_list *list){$/;"	f
+dl_list_entry	utils/list.h	56;"	d
+dl_list_first	utils/list.h	59;"	d
+dl_list_for_each	utils/list.h	67;"	d
+dl_list_for_each_safe	utils/list.h	72;"	d
+dl_list_init	utils/list.h	/^static inline void dl_list_init(struct dl_list *list) {$/;"	f
+dl_list_last	utils/list.h	63;"	d
+dl_list_len	utils/list.h	/^static inline unsigned int dl_list_len(struct dl_list *list){$/;"	f
+duration_id	common/ieee80211_data.h	/^	u16 duration_id;$/;"	m	struct:ieee80211_hdr
+duration_id	common/ieee80211_data.h	/^	u16 duration_id;$/;"	m	struct:ieee80211_hdr_3addr
+eapol	crypto/crypto.h	/^	u8 *eapol;$/;"	m	struct:encrypto_info
+eapol_frame_len	crypto/crypto.h	/^	int eapol_frame_len;$/;"	m	struct:encrypto_info
+eapol_len	crypto/crypto.h	/^	u16 eapol_len;$/;"	m	struct:wpa_eapol_key
+eloop	utils/eloop.c	/^static struct eloop_data eloop;$/;"	v	typeref:struct:eloop_data	file:
+eloop_cancel_timeout	utils/eloop.c	/^int eloop_cancel_timeout(eloop_timeout_handler handler,$/;"	f
+eloop_cancel_timeout_one	utils/eloop.c	/^int eloop_cancel_timeout_one(eloop_timeout_handler handler,$/;"	f
+eloop_data	utils/eloop.c	/^	void *eloop_data;$/;"	m	struct:eloop_sock	file:
+eloop_data	utils/eloop.c	/^	void *eloop_data;$/;"	m	struct:eloop_timeout	file:
+eloop_data	utils/eloop.c	/^struct eloop_data {$/;"	s	file:
+eloop_deplete_timeout	utils/eloop.c	/^int eloop_deplete_timeout(unsigned int req_secs, unsigned int req_usecs,$/;"	f
+eloop_destroy	utils/eloop.c	/^void eloop_destroy(void) {$/;"	f
+eloop_event_handler	utils/eloop.h	/^typedef void (*eloop_event_handler)(void *eloop_data,void *user_ctx);$/;"	t
+eloop_event_type	utils/eloop.h	/^} eloop_event_type;$/;"	t	typeref:enum:__anon5
+eloop_get_sock_table	utils/eloop.c	/^static struct eloop_sock_table *eloop_get_sock_table(eloop_event_type type) {$/;"	f	file:
+eloop_handle_alarm	utils/eloop.c	/^static void eloop_handle_alarm(int sig) {$/;"	f	file:
+eloop_handler_signal	utils/eloop.c	/^static void eloop_handler_signal(int sig) {$/;"	f	file:
+eloop_init	utils/eloop.c	/^int eloop_init(void) {$/;"	f
+eloop_is_timeout_registered	utils/eloop.c	/^int eloop_is_timeout_registered(eloop_timeout_handler handler,$/;"	f
+eloop_process_pending_signals	utils/eloop.c	/^static void eloop_process_pending_signals(void) {$/;"	f	file:
+eloop_register_read_sock	utils/eloop.c	/^int eloop_register_read_sock(int sock, eloop_sock_handler handler,$/;"	f
+eloop_register_signal	utils/eloop.c	/^int eloop_register_signal(int sig, eloop_signal_handler handler,$/;"	f
+eloop_register_signal_reconfig	utils/eloop.c	/^int eloop_register_signal_reconfig(eloop_signal_handler handler,$/;"	f
+eloop_register_signal_terminate	utils/eloop.c	/^int eloop_register_signal_terminate(eloop_signal_handler handler,$/;"	f
+eloop_register_sock	utils/eloop.c	/^int eloop_register_sock(int sock, eloop_event_type type,$/;"	f
+eloop_register_timeout	utils/eloop.c	/^int eloop_register_timeout(unsigned int secs, unsigned int usecs,$/;"	f
+eloop_remove_timeout	utils/eloop.c	/^static void eloop_remove_timeout(struct eloop_timeout *timeout) {$/;"	f	file:
+eloop_replenish_timeout	utils/eloop.c	/^int eloop_replenish_timeout(unsigned int req_secs, unsigned int req_usecs,$/;"	f
+eloop_run	utils/eloop.c	/^void eloop_run(void) {$/;"	f
+eloop_signal	utils/eloop.c	/^struct eloop_signal {$/;"	s	file:
+eloop_signal_handler	utils/eloop.h	/^typedef void (*eloop_signal_handler)(int sig, void *signal_ctx);$/;"	t
+eloop_sigsegv_handler	utils/eloop.c	/^static void eloop_sigsegv_handler(int sig){$/;"	f	file:
+eloop_sock	utils/eloop.c	/^struct eloop_sock {$/;"	s	file:
+eloop_sock_handler	utils/eloop.h	/^typedef void (*eloop_sock_handler)(int sock, void *eloop_ctx, void *sock_ctx);$/;"	t
+eloop_sock_queue	utils/eloop.c	/^static int eloop_sock_queue(int sock, eloop_event_type type) {$/;"	f	file:
+eloop_sock_table	utils/eloop.c	/^struct eloop_sock_table {$/;"	s	file:
+eloop_sock_table_add_sock	utils/eloop.c	/^static int eloop_sock_table_add_sock(struct eloop_sock_table *table,$/;"	f	file:
+eloop_sock_table_destroy	utils/eloop.c	/^static void eloop_sock_table_destroy(struct eloop_sock_table *table) {$/;"	f	file:
+eloop_sock_table_dispatch	utils/eloop.c	/^static void eloop_sock_table_dispatch(struct eloop_sock_table *reader,$/;"	f	file:
+eloop_sock_table_dispatch	utils/eloop.c	/^static void eloop_sock_table_dispatch(struct epoll_event *events, int nfds){$/;"	f	file:
+eloop_sock_table_dispatch_table	utils/eloop.c	/^static int eloop_sock_table_dispatch_table(struct eloop_sock_table *table,$/;"	f	file:
+eloop_sock_table_remove_sock	utils/eloop.c	/^static void eloop_sock_table_remove_sock(struct eloop_sock_table *table,$/;"	f	file:
+eloop_sock_table_set_fds	utils/eloop.c	/^static int eloop_sock_table_set_fds(struct eloop_sock_table *readers,$/;"	f	file:
+eloop_terminate	utils/eloop.c	/^void eloop_terminate(void) {$/;"	f
+eloop_terminated	utils/eloop.c	/^int eloop_terminated(void) {$/;"	f
+eloop_timeout	utils/eloop.c	/^struct eloop_timeout {$/;"	s	file:
+eloop_timeout_handler	utils/eloop.h	/^typedef void (*eloop_timeout_handler)(void *eloop_data, void *user_ctx);$/;"	t
+eloop_trace_sock_add_ref	utils/eloop.c	/^static void eloop_trace_sock_add_ref(struct eloop_sock_table *table) {$/;"	f	file:
+eloop_trace_sock_add_ref	utils/eloop.c	139;"	d	file:
+eloop_trace_sock_remove_ref	utils/eloop.c	/^static void eloop_trace_sock_remove_ref(struct eloop_sock_table *table){$/;"	f	file:
+eloop_trace_sock_remove_ref	utils/eloop.c	140;"	d	file:
+eloop_unregister_read_sock	utils/eloop.c	/^void eloop_unregister_read_sock(int sock) {$/;"	f
+eloop_unregister_sock	utils/eloop.c	/^void eloop_unregister_sock(int sock, eloop_event_type type) {$/;"	f
+eloop_wait_for_read_sock	utils/eloop.c	/^void eloop_wait_for_read_sock(int sock) {$/;"	f
+encr_key	crypto/crypto.h	/^	u8 encr_key[16];$/;"	m	struct:wpa_ptk
+encrypto_info	crypto/crypto.h	/^struct encrypto_info {$/;"	s
+enough	crypto/crypto.h	/^	int enough;$/;"	m	struct:encrypto_info
+epoll_events	utils/eloop.c	/^	struct epoll_event *epoll_events;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::epoll_event	file:
+epoll_max_event_num	utils/eloop.c	/^	int epoll_max_event_num;$/;"	m	struct:eloop_data	file:
+epollfd	utils/eloop.c	/^	int epollfd;$/;"	m	struct:eloop_data	file:
+eth_type	utils/head.h	/^	unsigned short eth_type;$/;"	m	struct:__anon6
+ethernet_header	utils/head.h	/^} ethernet_header;$/;"	t	typeref:struct:__anon6
+exceptions	utils/eloop.c	/^	struct eloop_sock_table exceptions;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::eloop_sock_table	file:
+fd_table	utils/eloop.c	/^	struct eloop_sock *fd_table;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::eloop_sock	file:
+find_info_tag	utils/split.c	/^int find_info_tag(char *arg, int arg_size, const char *tag1, const char *info) {$/;"	f
+find_pollfd	utils/eloop.c	/^static struct pollfd * find_pollfd(struct pollfd **pollfds_map, int fd, int mx) {$/;"	f	file:
+fix_param	common/ieee80211_data.h	/^	struct beacon_fix_params fix_param;$/;"	m	struct:ieee80211_beacon	typeref:struct:ieee80211_beacon::beacon_fix_params
+frame	common/ieee80211_data.h	/^	struct ieee80211_hdr_3addr frame;$/;"	m	struct:beacon_packet	typeref:struct:beacon_packet::ieee80211_hdr_3addr
+frame_control	common/ieee80211_data.h	/^	u16 frame_control;$/;"	m	struct:ieee80211_hdr
+frame_control	common/ieee80211_data.h	/^	u16 frame_control;$/;"	m	struct:ieee80211_hdr_3addr
+free_node	utils/hashtab.c	/^void free_node(struct node** p){$/;"	f
+get_prg_fname	utils/trace.c	/^static void get_prg_fname(void){$/;"	f	file:
+gnutls_hmac_vector	crypto/crypto_gnutls.c	/^static int gnutls_hmac_vector(int algo, const u8 *key, size_t key_len,$/;"	f	file:
+hack_swap_16	utils/common.h	/^static inline unsigned short hack_swap_16(unsigned short v){$/;"	f
+hack_swap_32	utils/common.h	/^static inline unsigned int hack_swap_32(unsigned int v)$/;"	f
+hack_trace_add_ref	utils/trace.h	27;"	d
+hack_trace_add_ref	utils/trace.h	46;"	d
+hack_trace_bfd_init	utils/trace.c	/^static void hack_trace_bfd_init(void) {$/;"	f	file:
+hack_trace_check_ref	utils/trace.h	48;"	d
+hack_trace_dump	utils/trace.h	21;"	d
+hack_trace_dump	utils/trace.h	43;"	d
+hack_trace_dump_func	utils/trace.c	/^void hack_trace_dump_func(const char *title,void **btrace, int btrace_num) {$/;"	f
+hack_trace_dump_funcname	utils/trace.h	57;"	d
+hack_trace_record	utils/trace.h	24;"	d
+hack_trace_record	utils/trace.h	44;"	d
+hack_trace_ref	utils/trace.h	/^struct hack_trace_ref {$/;"	s
+hack_trace_remove_ref	utils/trace.h	30;"	d
+hack_trace_remove_ref	utils/trace.h	47;"	d
+hack_trace_show	utils/trace.c	/^void hack_trace_show(const char *title) {$/;"	f
+hack_trace_show	utils/trace.h	45;"	d
+handler	utils/eloop.c	/^	eloop_signal_handler handler;$/;"	m	struct:eloop_signal	file:
+handler	utils/eloop.c	/^	eloop_sock_handler handler;$/;"	m	struct:eloop_sock	file:
+handler	utils/eloop.c	/^	eloop_timeout_handler handler;$/;"	m	struct:eloop_timeout	file:
+hardware_len	utils/head.h	/^	unsigned char  hardware_len;$/;"	m	struct:__anon7
+hardware_type	utils/head.h	/^	unsigned short hardware_type;$/;"	m	struct:__anon7
+hash	utils/hashtab.c	/^int hash(struct hash_table* table,char* key){$/;"	f
+hash	utils/hashtab.h	/^	int(*hash)(struct hash_table* table,char* key);$/;"	m	struct:hash_table
+hash_table	utils/hashtab.h	/^struct hash_table{$/;"	s
+header_len_flag	utils/head.h	/^	unsigned short header_len_flag;$/;"	m	struct:__anon10
+header_len_flag	utils/head.h	/^	unsigned short header_len_flag;$/;"	m	struct:__anon9
+high	utils/common.h	/^    u32 high;$/;"	m	struct:t_convert::ints
+hmac_hash	crypto/crypto.c	/^int hmac_hash(int ver, u8 *key, int hashlen, u8 *buf, int buflen, u8 *mic) {$/;"	f
+hmac_sha1	crypto/crypto_gnutls.c	/^int hmac_sha1(const u8 *key, size_t key_len, const u8 *data,$/;"	f
+hmac_sha1	crypto/hmac_sha1.c	/^int hmac_sha1(unsigned char *key, size_t key_len, unsigned char *data, size_t data_len, unsigned char *mac, int usecached) {$/;"	f
+hmac_sha1_vector	crypto/crypto_gnutls.c	/^int hmac_sha1_vector(const u8 *key, size_t key_len, size_t num_elem,$/;"	f
+hmac_sha1_vector	crypto/hmac_sha1.c	/^int hmac_sha1_vector(unsigned char *key, size_t key_len, size_t num_elem, $/;"	f
+host_to_be16	utils/common.h	133;"	d
+host_to_be32	utils/common.h	137;"	d
+host_to_le16	utils/common.h	131;"	d
+host_to_le32	utils/common.h	135;"	d
+ieee80211_beacon	common/ieee80211_data.h	/^struct ieee80211_beacon {$/;"	s
+ieee80211_hdr	common/ieee80211_data.h	/^struct ieee80211_hdr {$/;"	s
+ieee80211_hdr_3addr	common/ieee80211_data.h	/^struct ieee80211_hdr_3addr {$/;"	s
+ieee80211_header	common/ieee80211_data.h	/^	struct ieee80211_hdr_3addr ieee80211_header;$/;"	m	struct:WPA2_handshake_packet	typeref:struct:WPA2_handshake_packet::ieee80211_hdr_3addr
+ieee80211_header	common/ieee80211_data.h	/^  struct ieee80211_hdr_3addr ieee80211_header;$/;"	m	struct:WPA2_packet	typeref:struct:WPA2_packet::ieee80211_hdr_3addr
+ieee80211_radiotap_header	common/radiotap.h	/^struct ieee80211_radiotap_header {$/;"	s
+ieee80211_radiotap_type	common/radiotap.h	/^enum ieee80211_radiotap_type {$/;"	g
+ieee80211_subtype	common/ieee80211_data.h	/^enum ieee80211_subtype {$/;"	g
+ieee80211_type	common/ieee80211_data.h	/^enum ieee80211_type {$/;"	g
+ieee_8021x_authentication	common/ieee80211_data.h	/^struct ieee_8021x_authentication {$/;"	s
+init_hashtable	utils/hashtab.c	/^int init_hashtable(struct hash_table* table,int size){$/;"	f
+inline	utils/common.h	63;"	d
+insert	utils/hashtab.c	/^int insert(struct hash_table* table,struct node* node){$/;"	f
+insert	utils/hashtab.h	/^	int(*insert)(struct hash_table* table,struct node* node);$/;"	m	struct:hash_table
+interval	common/ieee80211_data.h	/^	u8  interval[2]; \/\/double$/;"	m	struct:beacon_fix_params
+ints	utils/common.h	/^  struct ints {$/;"	s	union:t_convert
+ip4tostring	utils/print.c	/^char* ip4tostring(char* ip_s,unsigned char* ip){$/;"	f
+ip_header	utils/head.h	/^} ip_header;$/;"	t	typeref:struct:__anon8
+it_len	common/radiotap.h	/^	uint16_t it_len;$/;"	m	struct:ieee80211_radiotap_header
+it_pad	common/radiotap.h	/^	uint8_t  it_pad;$/;"	m	struct:ieee80211_radiotap_header
+it_present	common/radiotap.h	/^	uint32_t it_present;$/;"	m	struct:ieee80211_radiotap_header
+it_version	common/radiotap.h	/^	uint8_t  it_version;$/;"	m	struct:ieee80211_radiotap_header
+k_ipad	crypto/sha1.h	/^	SHA1_CTX k_ipad;$/;"	m	struct:__anon3
+k_ipad_set	crypto/sha1.h	/^	unsigned char k_ipad_set;$/;"	m	struct:__anon3
+k_opad	crypto/sha1.h	/^	SHA1_CTX k_opad;$/;"	m	struct:__anon3
+k_opad_set	crypto/sha1.h	/^	unsigned char k_opad_set;$/;"	m	struct:__anon3
+key	utils/hashtab.h	/^	char *key;$/;"	m	struct:node
+key_data_length	crypto/crypto.h	/^	u16 key_data_length;$/;"	m	struct:wpa_eapol_key
+key_description	crypto/crypto.h	/^	u8 key_description;$/;"	m	struct:wpa_eapol_key
+key_descriptor_type	common/ieee80211_data.h	/^	u8  key_descriptor_type;$/;"	m	struct:ieee_8021x_authentication
+key_id	common/ieee80211_data.h	/^	u64 key_id;$/;"	m	struct:ieee_8021x_authentication
+key_id	crypto/crypto.h	/^	u8 key_id[8];   \/* Reserved in IEEE 802.11i\/RSN *\/$/;"	m	struct:wpa_eapol_key
+key_info	crypto/crypto.h	/^	u16 key_info;$/;"	m	struct:wpa_eapol_key
+key_information	common/ieee80211_data.h	/^	u16 key_information;$/;"	m	struct:ieee_8021x_authentication
+key_iv	crypto/crypto.h	/^	u8 key_iv[16];$/;"	m	struct:wpa_eapol_key
+key_len	common/ieee80211_data.h	/^	u16 key_len;$/;"	m	struct:ieee_8021x_authentication
+key_length	crypto/crypto.h	/^	u16 key_length;$/;"	m	struct:wpa_eapol_key
+key_mic	crypto/crypto.h	/^	u8 key_mic[16];$/;"	m	struct:wpa_eapol_key
+key_nonce	crypto/crypto.h	/^	u8 key_nonce[WPA_NONCE_LEN];$/;"	m	struct:wpa_eapol_key
+key_rsc	crypto/crypto.h	/^	u8 key_rsc[8];$/;"	m	struct:wpa_eapol_key
+kqueue_events	utils/eloop.c	/^	struct kevent *kqueue_events;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::kevent	file:
+kqueue_nevents	utils/eloop.c	/^	int kqueue_nevents;$/;"	m	struct:eloop_data	file:
+kqueuefd	utils/eloop.c	/^	int kqueuefd;$/;"	m	struct:eloop_data	file:
+lamont_hdump	utils/print.c	/^void lamont_hdump(int level, const char *title, const unsigned char *bp, unsigned int length) {$/;"	f
+le_to_host16	utils/common.h	130;"	d
+le_to_host32	utils/common.h	134;"	d
+len	common/ieee80211_data.h	/^	u16 len;$/;"	m	struct:ieee_8021x_authentication
+list	utils/eloop.c	/^	struct dl_list list;$/;"	m	struct:eloop_timeout	typeref:struct:eloop_timeout::dl_list	file:
+list	utils/trace.h	/^	struct dl_list list;$/;"	m	struct:hack_trace_ref	typeref:struct:hack_trace_ref::dl_list
+llc_hdr	common/ieee80211_data.h	/^	struct llc_header llc_hdr;$/;"	m	struct:WPA2_handshake_packet	typeref:struct:WPA2_handshake_packet::llc_header
+llc_hdr	common/ieee80211_data.h	/^  struct llc_header llc_hdr;$/;"	m	struct:WPA2_packet	typeref:struct:WPA2_packet::llc_header
+llc_header	common/ieee80211_data.h	/^struct llc_header {$/;"	s
+log_printf	utils/print.c	/^void log_printf(int level,char* format,...){$/;"	f
+low	utils/common.h	/^    u32 low;$/;"	m	struct:t_convert::ints
+mactostring	utils/print.c	/^char* mactostring(char* mac_s,unsigned char* mac){$/;"	f
+main	data_decryption.c	/^int main(int argc, char **argv){$/;"	f
+malloc_and_copy_node	utils/hashtab.c	/^int malloc_and_copy_node(struct node* dst,struct node* src){$/;"	f
+malloc_and_copy_string	utils/hashtab.c	/^int malloc_and_copy_string(char** dst,char* src){$/;"	f
+max_fd	utils/eloop.c	/^	int max_fd;$/;"	m	struct:eloop_data	file:
+max_node_index	utils/hashtab.h	/^	int max_node_index;$/;"	m	struct:hash_table
+max_poll_fds	utils/eloop.c	/^	int max_poll_fds; \/* number of pollfds currently allocated *\/$/;"	m	struct:eloop_data	file:
+max_pollfd_map	utils/eloop.c	/^	int max_pollfd_map; \/* number of pollfds_map currently allocated *\/$/;"	m	struct:eloop_data	file:
+max_sock	utils/eloop.c	/^	int max_sock;$/;"	m	struct:eloop_data	file:
+mic_key	crypto/crypto.h	/^	u8 mic_key[16];$/;"	m	struct:wpa_ptk
+next	common/ieee80211_data.h	/^	struct beacon_tag_params *next;$/;"	m	struct:beacon_tag_params	typeref:struct:beacon_tag_params::beacon_tag_params
+next	utils/hashtab.h	/^	struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+next	utils/list.h	/^	struct dl_list *next;$/;"	m	struct:dl_list	typeref:struct:dl_list::dl_list
+nextdictword	crypto/crypto.c	/^int nextdictword(char *word, FILE *fp) {$/;"	f
+node	utils/hashtab.h	/^struct node{$/;"	s
+nodes	utils/hashtab.h	/^	struct node** nodes;$/;"	m	struct:hash_table	typeref:struct:hash_table::node
+offsetof	utils/list.h	51;"	d
+open_bfd	utils/trace.c	/^static bfd * open_bfd(const char *fname){$/;"	f	file:
+option	utils/head.h	/^	unsigned short option;$/;"	m	struct:__anon7
+os_free	utils/os.h	18;"	d
+os_get_hw_info	utils/os_unix.c	/^char *os_get_hw_info() {$/;"	f
+os_get_os_info	utils/os_unix.c	/^char *os_get_os_info() {$/;"	f
+os_get_reltime	utils/os_unix.c	/^int os_get_reltime(struct os_reltime *t) {$/;"	f
+os_malloc	utils/os.h	12;"	d
+os_memcmp	utils/os.h	39;"	d
+os_memcpy	utils/os.h	30;"	d
+os_memmove	utils/os.h	33;"	d
+os_memset	utils/os.h	36;"	d
+os_realloc	utils/os.h	15;"	d
+os_realloc_array	utils/os.h	/^static inline void * os_realloc_array(void *ptr, size_t nmemb, size_t size) {$/;"	f
+os_reltime	utils/os.h	/^struct os_reltime {$/;"	s
+os_reltime_before	utils/os.h	/^static inline int os_reltime_before(struct os_reltime *a,$/;"	f
+os_reltime_expired	utils/os.h	/^static inline int os_reltime_expired(struct os_reltime *now, $/;"	f
+os_reltime_sub	utils/os.h	/^static inline void os_reltime_sub(struct os_reltime *a, struct os_reltime *b,$/;"	f
+os_sleep	utils/os_internal.c	/^void os_sleep(os_time_t sec, os_time_t usec) {$/;"	f
+os_snprintf	utils/os.h	44;"	d
+os_snprintf	utils/os.h	46;"	d
+os_strdup	utils/os.h	22;"	d
+os_strdup	utils/os.h	24;"	d
+os_strlcpy	utils/os_unix.c	/^size_t os_strlcpy(char *dest, const char *src, size_t size) {$/;"	f
+os_time	utils/os.h	/^struct os_time {$/;"	s
+os_time_t	utils/os.h	/^typedef long os_time_t;$/;"	t
+os_zalloc	utils/os_internal.c	/^void * os_zalloc(size_t size) {$/;"	f
+packet_id	utils/head.h	/^	unsigned short packet_id;$/;"	m	struct:__anon8
+packet_len	utils/head.h	/^	unsigned short packet_len;$/;"	m	struct:__anon8
+parse_payload_from_string	data_decryption.c	/^static int parse_payload_from_string(uint8_t *buffer, int *buffer_len, char *payload_str, int len) {$/;"	f	file:
+parse_tk_from_string	data_decryption.c	/^static int parse_tk_from_string(struct wpa_ptk *ptk, char *key_str, int len) {$/;"	f	file:
+password	crypto/crypto.h	/^	char *password;$/;"	m	struct:encrypto_info
+pbkdf2_sha1	crypto/sha1_pbkf2.c	/^int pbkdf2_sha1(char *passphrase, char *ssid, size_t ssid_len,$/;"	f
+pbkdf2_sha1_f	crypto/sha1_pbkf2.c	/^static void pbkdf2_sha1_f(char *passphrase, char *ssid,$/;"	f	file:
+pending_terminate	utils/eloop.c	/^	int pending_terminate;$/;"	m	struct:eloop_data	file:
+pollfds	utils/eloop.c	/^	struct pollfd *pollfds;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::pollfd	file:
+pollfds_map	utils/eloop.c	/^	struct pollfd **pollfds_map;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::pollfd	file:
+prev	common/ieee80211_data.h	/^	struct beacon_tag_params *prev;$/;"	m	struct:beacon_tag_params	typeref:struct:beacon_tag_params::beacon_tag_params
+prev	utils/list.h	/^	struct dl_list *prev;$/;"	m	struct:dl_list	typeref:struct:dl_list::dl_list
+prg_fname	utils/trace.c	/^static char *prg_fname = NULL;$/;"	v	file:
+print_hashtable	utils/hashtab.c	/^void print_hashtable(struct hash_table* table){$/;"	f
+print_ip	utils/print.c	/^void print_ip(unsigned char* ip){$/;"	f
+print_mac	utils/print.c	/^void print_mac(unsigned char* mac){$/;"	f
+print_protocol	utils/print.c	/^void print_protocol(unsigned char protocol_type){$/;"	f
+print_type	utils/print.c	/^void print_type(unsigned short type){$/;"	f
+println_ip	utils/print.c	/^void println_ip(unsigned char* ip){$/;"	f
+println_mac	utils/print.c	/^void println_mac(unsigned char* mac){$/;"	f
+protocol_len	utils/head.h	/^	unsigned char  protocol_len;$/;"	m	struct:__anon7
+protocol_type	utils/head.h	/^	unsigned char  protocol_type;$/;"	m	struct:__anon8
+protocol_type	utils/head.h	/^	unsigned short protocol_type;$/;"	m	struct:__anon7
+ptk	crypto/crypto.h	/^	struct wpa_ptk ptk;$/;"	m	struct:encrypto_info	typeref:struct:encrypto_info::wpa_ptk
+read_syms	utils/trace.c	/^static void read_syms(bfd *abfd) {$/;"	f	file:
+readers	utils/eloop.c	/^	struct eloop_sock_table readers;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::eloop_sock_table	file:
+reason_code	common/ieee80211_data.h	/^enum reason_code {$/;"	g
+replay_counter	common/ieee80211_data.h	/^	u8 replay_counter[8];$/;"	m	struct:ieee_8021x_authentication
+replay_counter	crypto/crypto.h	/^	u8 replay_counter[WPA_REPLAY_COUNTER_LEN];$/;"	m	struct:wpa_eapol_key
+rol	crypto/sha1_internal.c	8;"	d	file:
+rx_mic_key	crypto/crypto.h	/^			u8 rx_mic_key[8];$/;"	m	struct:wpa_ptk::__anon1::__anon2
+s16	utils/common.h	/^typedef INT16 s16;$/;"	t
+s16	utils/common.h	/^typedef int16_t s16;$/;"	t
+s32	utils/common.h	/^typedef INT32 s32;$/;"	t
+s32	utils/common.h	/^typedef int32_t s32;$/;"	t
+s64	utils/common.h	/^typedef INT64 s64;$/;"	t
+s64	utils/common.h	/^typedef int64_t s64;$/;"	t
+s64	utils/common.h	/^typedef long long s64;$/;"	t
+s8	utils/common.h	/^typedef INT8 s8;$/;"	t
+s8	utils/common.h	/^typedef int8_t s8;$/;"	t
+search	utils/hashtab.c	/^int search(struct hash_table* table,struct node* node){$/;"	f
+search	utils/hashtab.h	/^	int(*search)(struct hash_table* table,struct node* node);$/;"	m	struct:hash_table
+sec	utils/os.h	/^	os_time_t sec;$/;"	m	struct:os_reltime
+sec	utils/os.h	/^	os_time_t sec;$/;"	m	struct:os_time
+seq_ctrl	common/ieee80211_data.h	/^	u16 seq_ctrl;$/;"	m	struct:ieee80211_hdr
+seq_ctrl	common/ieee80211_data.h	/^	u16 seq_ctrl;$/;"	m	struct:ieee80211_hdr_3addr
+sequ_num	utils/head.h	/^	unsigned int   sequ_num;$/;"	m	struct:__anon9
+set	utils/common.h	/^  }set;$/;"	m	union:t_convert	typeref:struct:t_convert::ints
+sha1_prf	crypto/sha1-prf.c	/^int sha1_prf(unsigned char *key, unsigned int key_len, char *label,$/;"	f
+sha1_vector	crypto/sha1_internal.c	/^int sha1_vector(size_t num_elem, const u8 *addr[], const size_t *len, u8 *mac) {$/;"	f
+sig	utils/eloop.c	/^	int sig;$/;"	m	struct:eloop_signal	file:
+signal_count	utils/eloop.c	/^	int signal_count;$/;"	m	struct:eloop_data	file:
+signaled	utils/eloop.c	/^	int signaled;$/;"	m	struct:eloop_data	file:
+signaled	utils/eloop.c	/^	int signaled;$/;"	m	struct:eloop_signal	file:
+signals	utils/eloop.c	/^	struct eloop_signal *signals;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::eloop_signal	file:
+slice_info	utils/head.h	/^	unsigned short slice_info;$/;"	m	struct:__anon8
+sock	utils/eloop.c	/^	int sock;$/;"	m	struct:eloop_sock	file:
+socklen_t	utils/common.h	/^typedef int socklen_t;$/;"	t
+sour_port	utils/head.h	/^	unsigned short sour_port;$/;"	m	struct:__anon10
+sour_port	utils/head.h	/^	unsigned short sour_port;$/;"	m	struct:__anon9
+src_ip	utils/head.h	/^	unsigned char  src_ip[4];$/;"	m	struct:__anon8
+src_ip	utils/head.h	/^	unsigned char src_ip[4];$/;"	m	struct:__anon7
+src_mac	utils/head.h	/^	unsigned char src_mac[6];$/;"	m	struct:__anon7
+state	common/nl80211.c	/^struct nl80211_state *state;$/;"	v	typeref:struct:nl80211_state
+state	crypto/sha1_i.h	/^	u32 state[5];$/;"	m	struct:SHA1Context
+subtype_mask	common/ieee80211_data.h	26;"	d
+surg_point	utils/head.h	/^	unsigned short surg_point;$/;"	m	struct:__anon9
+syms	utils/trace.c	/^static asymbol **syms = NULL;$/;"	v	file:
+t_convert	utils/common.h	/^union t_convert{$/;"	u
+table	utils/eloop.c	/^	struct eloop_sock *table;$/;"	m	struct:eloop_sock_table	typeref:struct:eloop_sock_table::eloop_sock	file:
+tag_len	common/ieee80211_data.h	/^	u8 tag_len;$/;"	m	struct:beacon_tag_params
+tag_name	common/ieee80211_data.h	/^	u8 tag_name;$/;"	m	struct:beacon_tag_params
+tag_param	common/ieee80211_data.h	/^	struct beacon_tag_params *tag_param;$/;"	m	struct:ieee80211_beacon	typeref:struct:ieee80211_beacon::beacon_tag_params
+tcp_header	utils/head.h	/^} tcp_header;$/;"	t	typeref:struct:__anon9
+terminate	utils/eloop.c	/^	int terminate;$/;"	m	struct:eloop_data	file:
+time	utils/eloop.c	/^	struct os_reltime time;$/;"	m	struct:eloop_timeout	typeref:struct:eloop_timeout::os_reltime	file:
+timeout	utils/eloop.c	/^	struct dl_list timeout;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::dl_list	file:
+timestamp	common/ieee80211_data.h	/^	u8  timestamp[8];$/;"	m	struct:beacon_fix_params
+tk1	crypto/crypto.h	/^	u8 tk1[16];$/;"	m	struct:wpa_ptk
+tk2	crypto/crypto.h	/^		u8 tk2[16];$/;"	m	union:wpa_ptk::__anon1
+tv	utils/common.h	/^  os_time_t tv;$/;"	m	union:t_convert
+tx_mic_key	crypto/crypto.h	/^			u8 tx_mic_key[8];$/;"	m	struct:wpa_ptk::__anon1::__anon2
+type	common/ieee80211_data.h	/^	enum ieee80211_subtype type;$/;"	m	struct:WPA2_handshake_packet	typeref:enum:WPA2_handshake_packet::ieee80211_subtype
+type	common/ieee80211_data.h	/^	enum ieee80211_subtype type;$/;"	m	struct:beacon_packet	typeref:enum:beacon_packet::ieee80211_subtype
+type	common/ieee80211_data.h	/^	u16 type;$/;"	m	struct:llc_header
+type	common/ieee80211_data.h	/^	u8  type;$/;"	m	struct:ieee_8021x_authentication
+type	common/ieee80211_data.h	/^  enum ieee80211_subtype type;$/;"	m	struct:WPA2_packet	typeref:enum:WPA2_packet::ieee80211_subtype
+type	crypto/crypto.h	/^	u8 type;$/;"	m	struct:wpa_eapol_key
+type	utils/eloop.c	/^	eloop_event_type type;$/;"	m	struct:eloop_sock_table	file:
+type_mask	common/ieee80211_data.h	27;"	d
+type_of_service	utils/head.h	/^	unsigned char  type_of_service;$/;"	m	struct:__anon8
+u	crypto/crypto.h	/^	} u;$/;"	m	struct:wpa_ptk	typeref:union:wpa_ptk::__anon1
+u16	common/ieee80211_data.h	17;"	d
+u16	utils/common.h	/^typedef UINT16 u16;$/;"	t
+u16	utils/common.h	/^typedef uint16_t u16;$/;"	t
+u32	common/ieee80211_data.h	20;"	d
+u32	utils/common.h	/^typedef UINT32 u32;$/;"	t
+u32	utils/common.h	/^typedef uint32_t u32;$/;"	t
+u64	common/ieee80211_data.h	23;"	d
+u64	utils/common.h	/^typedef UINT64 u64;$/;"	t
+u64	utils/common.h	/^typedef uint64_t u64;$/;"	t
+u64	utils/common.h	/^typedef unsigned long long u64;$/;"	t
+u8	common/ieee80211_data.h	14;"	d
+u8	utils/common.h	/^typedef UINT8 u8;$/;"	t
+u8	utils/common.h	/^typedef uint8_t u8;$/;"	t
+udp_header	utils/head.h	/^}udp_header;$/;"	t	typeref:struct:__anon10
+usage	data_decryption.c	/^void usage(){$/;"	f
+usec	utils/os.h	/^	os_time_t usec;$/;"	m	struct:os_reltime
+usec	utils/os.h	/^	os_time_t usec;$/;"	m	struct:os_time
+user_data	utils/eloop.c	/^	void *user_data;$/;"	m	struct:eloop_signal	file:
+user_data	utils/eloop.c	/^	void *user_data;$/;"	m	struct:eloop_sock	file:
+user_data	utils/eloop.c	/^	void *user_data;$/;"	m	struct:eloop_timeout	file:
+value	utils/hashtab.h	/^	char *value;$/;"	m	struct:node
+version	common/ieee80211_data.h	/^	u8  version;$/;"	m	struct:ieee_8021x_authentication
+version	crypto/crypto.h	/^	int version;$/;"	m	struct:encrypto_info
+version	crypto/crypto.h	/^	u8 version;$/;"	m	struct:wpa_eapol_key
+version_head	utils/head.h	/^	unsigned char  version_head;$/;"	m	struct:__anon8
+version_mask	common/ieee80211_data.h	28;"	d
+vsnprintf	utils/common.h	65;"	d
+vsnprintf	utils/common.h	66;"	d
+window	utils/head.h	/^	unsigned short window;$/;"	m	struct:__anon9
+wireless_peeek_nl80211_change_beacon	common/nl80211.c	/^int wireless_peeek_nl80211_change_beacon() {$/;"	f
+wireless_peek_nl80211_init	common/nl80211.c	/^int wireless_peek_nl80211_init(struct MITM* this) {$/;"	f
+wireless_peek_nl80211_recv_cb	common/nl80211.c	/^static void wireless_peek_nl80211_recv_cb(int sock, void *eloop_ctx, void *sock_ctx) {$/;"	f	file:
+wpa_eapol_key	crypto/crypto.h	/^struct wpa_eapol_key {$/;"	s
+wpa_pmk_to_ptk	crypto/crypto.c	/^int wpa_pmk_to_ptk(u8 *pmk, u8 *addr1, u8 *addr2, $/;"	f
+wpa_ptk	crypto/crypto.h	/^struct wpa_ptk {$/;"	s
+wpa_trace_bfd_addr	utils/trace.c	145;"	d	file:
+wpa_trace_bfd_addr2func	utils/trace.c	146;"	d	file:
+wpa_trace_bfd_init	utils/trace.c	144;"	d	file:
+writers	utils/eloop.c	/^	struct eloop_sock_table writers;$/;"	m	struct:eloop_data	typeref:struct:eloop_data::eloop_sock_table	file:
+xor_aes_block	crypto/aes-ccm.c	/^static void xor_aes_block(u8 *dst, const u8 *src) {$/;"	f	file:
+zalloc	utils/common.c	/^void * zalloc(size_t size) {$/;"	f

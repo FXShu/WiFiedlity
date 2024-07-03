@@ -1,0 +1,25 @@
+ifndef CC
+CC=gcc
+endif
+ifndef CFLAGS
+CFLAGS = -MMD -O2 -Wall -g -Wno-unused-variable -std=gnu99
+endif
+
+CFLAGS += -I.. -I../utils
+CFLAGS += -DCONFIG_ELOOP_EPOLL
+CFLAGS += -I.. -I../crypto
+CFLAGS += -DCONFIG_CRYPTO_INTERNAL
+Q=@
+E=echo
+ifeq ($(V), 1)
+Q=
+E=true
+endif
+ifeq ($(OUIET), 1)
+Q=@
+E=true
+endif
+
+%.o: %.c
+	$(Q)$(CC) -c -o $@ $(CFLAGS) $<
+	@$(E) "  CC " $<
